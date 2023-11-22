@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+}
+
+.links {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20;
+  font-family: Georgia;  
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  font-family: Georgia;
+  color: white;
+  margin-top: 3%;
+}
+
+.leftcontainer {
+  width: 400px;
+  height: auto;
+  line-height: 2.5;
+}
+
+.colors {
+  background-color: #1f2937;
+}
+
+
